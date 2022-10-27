@@ -1,0 +1,123 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box}
+
+/*====== barra navegação ======*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: #fbf4ff;}
+
+.btn-nav{
+    margin-right: 3rem;}
+.btn-nav > a button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.3rem;
+    border: none;
+ }
+.btn-nav > a button:hover {
+    cursor: pointer;
+    color: blueviolet;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+    transition-duration:600ms;}
+#btn-login {
+    background-image: linear-gradient(to right, #6607C7, #AC61F7);
+    color: white;
+    border-radius: 20px;
+    padding: 4px 20px;
+}
+#logo > a h2 {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    left: 2%;
+    top: 2%;
+    text-decoration: none;
+}
+#logo > a h2:hover{
+    cursor: pointer;
+    color: #7718d6;
+}
+
+
+/*========== Animação =========*/
+
+.sarinha >  h2{
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+}
+ .animação > img{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+ }
+
+
+/*====== Footer ======*/
+
+.barraredes { 
+    width: 100%;
+    background-color: #41037e;
+    height: 40px;
+    margin-top: 5%;
+    margin: auto;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10%;
+    position: relative;
+    left: 30px;
+    top: -24px;
+  
+}
+.redes > a img{
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+.barraredes > p{
+    color: white;
+    margin-left: 10%;
+    padding-top: 0.5%;
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1C2431;
+    padding: 1%;
+}
+.info > div{
+    margin: 1% 4% 1% 4%;
+}
+.info > div h2{
+    font-size: 14px;
+    color: white;
+}
+.info > div p{
+    font-size: 12px;
+    color: white;
+}
+.direitos{
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+}
+.direitos > p {
+    color: white;
+    font-size: 11px;
+    padding: 1%;
+}

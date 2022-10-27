@@ -1,0 +1,198 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box}
+
+/*====== barra navegação ======*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: white;}
+
+.btn-nav{
+    margin-right: 3rem;}
+.btn-nav > a button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.3rem;
+    border: none;
+ }
+.btn-nav > a button:hover {
+    cursor: pointer;
+    color: blueviolet;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+    transition-duration:600ms;}
+#btn-login {
+    background-image: linear-gradient(to right, #6607C7, #AC61F7);
+    color: white;
+    border-radius: 20px;
+    padding: 4px 20px;
+}
+#logo > a h2 {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    left: 2%;
+    top: 2%;
+    text-decoration: none;
+}
+#logo > a h2:hover{
+    cursor: pointer;
+    color: #7718d6;
+}
+
+
+/*====== Cursos ======*/
+
+.main{
+    width: 1280px;
+    display: flex;
+    background-color: white;
+    height: 1000px;
+    margin: auto;
+    margin-bottom: 0.5%;
+    justify-content: center;}
+
+.container {
+        width: 1200px;
+        max-width: 100%;
+        height: 700px;
+        max-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        justify-content: center;
+        top: 4%;
+        position: relative;
+    }
+.container > div {
+    margin: 2.9%;
+}
+#titulo{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;}
+#p{
+    text-align: center;
+    font-size: 18px;
+
+
+}
+/*====== Estilo cursos ======*/
+.curso{
+    background-color: #fdfdfd;
+    width: 220px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0px #00000027;
+}
+
+.curso > h2 {
+    font-size: 16px;
+    text-align: center;
+    color: #a7a7a7;
+    font-weight: 500;
+}
+.curso > p {
+    font-size: 14px;
+    text-align: center;}
+#preço{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.curso > img {
+    border-radius: 10px 10px 0px 0px;
+}
+.curso > button{
+    background-image: linear-gradient(to right, #6607C7, #AC61F7);
+    margin-top: 6%;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;  
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    margin: auto;
+    margin-left: 24%;
+    margin-top: 5%;
+}
+
+.curso > button:hover{
+    background-image: linear-gradient(to right, #5506a3, #8f55c9);
+    transition-duration:600ms; 
+    cursor:pointer;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+    }
+.curso:hover{
+    transition-duration:500ms; 
+    cursor:pointer;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+    box-shadow: 0 0 9px 0px #00000027;
+}
+
+/*====== Footer ======*/
+
+.barraredes { 
+    width: 100%;
+    background-color: #41037e;
+    height: 40px;
+    margin-top: 5%;
+    margin: auto;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10%;
+    position: relative;
+    left: 30px;
+    top: -24px;
+  
+}
+.redes > a img{
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+.barraredes > p{
+    color: white;
+    margin-left: 10%;
+    padding-top: 0.5%;
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1C2431;
+    padding: 1%;
+}
+.info > div{
+    margin: 1% 4% 1% 4%;
+}
+.info > div h2{
+    font-size: 14px;
+    color: white;
+}
+.info > div p{
+    font-size: 12px;
+    color: white;
+}
+.direitos{
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+}
+.direitos > p {
+    color: white;
+    font-size: 11px;
+    padding: 1%;
+}

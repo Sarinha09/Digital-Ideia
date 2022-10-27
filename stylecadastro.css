@@ -1,0 +1,128 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box}
+
+/*====== barra navegação ======*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: white;}
+
+.btn-nav{
+    margin-right: 3rem;}
+.btn-nav > a button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.3rem;
+    border: none;
+ }
+.btn-nav > a button:hover {
+    cursor: pointer;
+    color: blueviolet;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); 
+    transition-duration:600ms;}
+#btn-login {
+    background-image: linear-gradient(to right, #6607C7, #AC61F7);
+    color: white;
+    border-radius: 20px;
+    padding: 4px 20px;
+}
+#logo > a h2 {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    left: 2%;
+    top: 2%;
+    text-decoration: none;
+}
+#logo > a h2:hover{
+    cursor: pointer;
+    color: #7718d6;
+}
+
+
+/*====== Cadastro ======*/
+.cadastro{
+    display: flex;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 1280px;
+    justify-content: center;}
+
+.divbase{
+    background-color: #fcfcfc;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 4%;
+    border-radius: 10px;
+    border-color: #cfcfcf;
+    box-shadow: 0 0 6px 0px #00000027;
+}
+.divbase >h2 {
+    font-size: 30px;
+    text-align: center;}
+.divbase >h3 {
+    font-size: 16px;
+    text-align: center;
+    color: #a3a3a3;}
+
+.divbase > button{
+    background-image: linear-gradient(to right, #6607C7, #AC61F7);
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;  
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+.divbase > button:hover{
+    background-image: linear-gradient(to right, #5506a3, #8f55c9);
+    transition-duration:600ms; 
+    cursor:pointer;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); }
+
+.inputcadastro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 2%;}
+.inputcadastro > input {
+    width: 450px;
+    height: 35px;
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e2e2e2;
+    padding: 7% 0% 0% 0%;
+}
+ .inputcadastro >input::placeholder {
+    text-align: justify;
+    position: absolute;
+    top: 6px; 
+    left: 6px;
+ }
+
+ .divcheck > input {
+    padding: 6% 0% 0% 0%;
+
+ }
+ .label1{
+    font-size: 14px;
+ }
+ .p1 {
+    padding-top: 3%;
+    font-size: 13px;
+   
+ }
